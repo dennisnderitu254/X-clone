@@ -42,30 +42,30 @@ const LoginModal = () => {
 
   const bodyContent = (
     <div className="flex flex-col gap-4">
-      <Input 
+      <Input
         placeholder="Email"
         onChange={(e) => setEmail(e.target.value)}
         value={email}
-        disabled={isLoading}  
+        disabled={isLoading}
       />
-      <Input 
+      <Input
         placeholder="Password"
         type="password"
         onChange={(e) => setPassword(e.target.value)}
         value={password}
-        disabled={isLoading} 
+        disabled={isLoading}
       />
     </div>
   )
 
   const footerContent = (
     <div className="text-neutral-400 text-center mt-4">
-      <p>First time using problemAttic?
-        <span 
-          onClick={onToggle} 
+      <p>First time using Twitter Prime?
+        <span
+          onClick={onToggle}
           className="
-            text-white 
-            cursor-pointer 
+            text-white
+            cursor-pointer
             hover:underline
           "
           > Create an account</span>

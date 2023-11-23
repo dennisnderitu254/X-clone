@@ -62,25 +62,25 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
               className="
                 disabled:opacity-80
                 peer
-                resize-none 
-                mt-3 
-                w-full 
-                bg-black 
-                ring-0 
-                outline-none 
-                text-[20px] 
-                placeholder-neutral-500 
+                resize-none
+                mt-3
+                w-full
+                bg-black
+                ring-0
+                outline-none
+                text-[20px]
+                placeholder-neutral-500
                 text-white
               "
               placeholder={placeholder}>
             </textarea>
-            <hr 
+            <hr
               className="
-                opacity-0 
-                peer-focus:opacity-100 
-                h-[1px] 
-                w-full 
-                border-neutral-800 
+                opacity-0
+                peer-focus:opacity-100
+                h-[1px]
+                w-full
+                border-neutral-800
                 transition"
             />
             <div className="mt-4 flex flex-row justify-end">
@@ -90,7 +90,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
         </div>
       ) : (
         <div className="py-8">
-          <h1 className="text-white text-2xl text-center mb-4 font-bold">Welcome to ProblemAttic</h1>
+          <h1 className="text-white text-2xl text-center mb-4 font-bold">Welcome to Twitter Prime</h1>
           <div className="flex flex-row items-center justify-center gap-4">
             <Button label="Login" onClick={loginModal.onOpen} />
             <Button label="Register" onClick={registerModal.onOpen} secondary />
